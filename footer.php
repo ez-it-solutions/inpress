@@ -1,11 +1,14 @@
 <?php /* footer template partial */ ?>
 
-<section>
-	<div class="container">
-		<?php wp_footer(); ?>
-	</div>
-</section>
+<footer class="footer">
+	<section>
+		<div class="container">
+			<?php /* footer */ ?>
+		</div>
+	</section>
+</footer>
 
+<?php wp_footer(); ?>
 
 </body>
 </html>
