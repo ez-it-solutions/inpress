@@ -4,7 +4,7 @@ get_header();
 
 <section class="section">
 	<div class="container">
-		<div class="columns is-gapless">
+		<div class="columns">
 			<div class="column is-two-thirds">
 				<?php
 				if ( have_posts() ) :
