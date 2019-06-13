@@ -165,3 +165,13 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 if ( class_exists( 'WooCommerce' ) ) {
 	require get_template_directory() . '/inc/woocommerce.php';
 }
+
+// as per bones
+// LOAD BONES CORE (if you remove this, the theme will break)
+require_once( 'library/inpress.php' );
+
+// move cleanup to own file
+require_once( 'library/cleanup.php' );
+
+// CUSTOMIZE THE WORDPRESS ADMIN (off by default)
+ require_once( 'library/admin.php' );
