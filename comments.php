@@ -20,7 +20,7 @@ if ( post_password_required() ) {
 }
 ?>
 
-<section>
+<section class="section">
 	<div class="container">
 
 		<?php
