@@ -165,3 +165,8 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 if ( class_exists( 'WooCommerce' ) ) {
 	require get_template_directory() . '/inc/woocommerce.php';
 }
+
+require_once('navwalker.php');
+register_nav_menus( array(
+    'primary' => __( 'Primary Menu', 'menuname' ),
+) );

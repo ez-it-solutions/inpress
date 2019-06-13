@@ -20,6 +20,18 @@
     <div class="container">
       <h1 class="title">Hero title</h1>
       <h2 class="subtitle">Hero subtitle</h2>
+	  <?php
+			    wp_nav_menu( array(
+					'theme_location'    => 'primary',
+					'depth'             => 2,
+					'container'         => false,
+					// 'items_wrap'        => 'div',
+					'menu_class'        => 'navbar-menu',
+					'menu_id'           => 'primary-menu',
+					'after'             => "</div>",
+					'walker'            => new Navwalker())
+				);
+			?>
     </div>
   </div>
 </section>
