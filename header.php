@@ -18,7 +18,7 @@
 <section class="hero is-primary">
   <div class="hero-body">
     <div class="container">
-    	<h1 class="title">Hero title</h1>
+    	<h1 class="title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 	 	<h2 class="subtitle">Hero subtitle</h2>
 		<?php get_template_part( 'template-parts/navigation', 'none' ); ?>
     </div>
