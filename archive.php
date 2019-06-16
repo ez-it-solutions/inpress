@@ -10,7 +10,7 @@
 get_header();
 ?>
 
-<section>
+<section class="section">
 	<div class="container">
 
 		<?php if ( have_posts() ) : ?>
@@ -49,5 +49,5 @@ get_header();
 </section>
 
 <?php
-get_sidebar();
+//get_sidebar();
 get_footer();
