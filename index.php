@@ -40,7 +40,7 @@ get_header();
 				?>
 			</div>
 			<div class="column is-one-third">
-				<?php get_sidebar(); ?>
+				<?php get_sidebar(); // https://developer.wordpress.org/reference/functions/get_sidebar/ ?>
 			</div>
 		</div>
 	</div>
