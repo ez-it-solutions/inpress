@@ -3,19 +3,61 @@ Theme Name: inpress
 Theme URI: http://underscores.me/
 Author: liam
 Author URI: http://liam.lt
-Description: inpress theme, based on inpress
+Description: inpress theme, based on underscores and bones
 Version: 1.0.0
 License: GNU General Public License v2 or later
-License URI: LICENSE
+License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 Text Domain: inpress
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-
-inpress is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 */
+/* 
+post nagivation 
+nav.post-navigation
+h2.screen-reader-text
+.nav-links
+.nav-previous a
+.nav-next a
+*/
+nav.post-navigation {
+  margin: 10px 0 10px 0; }
+
+article.post {
+  margin-bottom: 35px; }
+
+.widget_search {
+  border: 1px #efefef solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px; }
+
+/* comments */
+li.comment {
+  padding: 20px;
+  border-radius: 5px; }
+
+li.comment:nth-child(even) {
+  background: #efefef; }
+
+.comments {
+  border: 2px #fff solid; }
+
+.comments form label {
+  display: inline-block;
+  width: 100px;
+  vertical-align: top;
+  text-align: right; }
+
+.comments form {
+  padding: 20px; }
+
+.hero a {
+  color: #fff; }
+
+.hero {
+  text-align: center; }
+
+p {
+  margin: 10px 0 10px 0; }
+
+.title {
+  margin-bottom: 25px; }
