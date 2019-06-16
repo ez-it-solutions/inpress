@@ -1,0 +1,20 @@
+/* comments */
+li.comment{
+    padding:20px;
+    border-radius:5px;
+}
+li.comment:nth-child(even){
+    background:#efefef;
+}
+.comments {
+    border:2px #fff solid;
+}
+.comments form label{
+    display:inline-block;
+    width:100px;
+    vertical-align: top;
+    text-align: right;
+}
+.comments form {
+    padding:20px;
+}
