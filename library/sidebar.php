@@ -1,9 +1,5 @@
-<?php
-/**
- * Register widget area.
- *
- * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
- */
+<?php /* Register widget area. https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar */
+
 function inpress_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'Sidebar', 'inpress' ),
@@ -16,4 +12,3 @@ function inpress_widgets_init() {
 	) );
 }
 add_action( 'widgets_init', 'inpress_widgets_init' );
-?>
