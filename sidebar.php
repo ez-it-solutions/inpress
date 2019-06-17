@@ -1,4 +1,8 @@
-<?php /* sidebar widget template partial */
+<?php
+/** Sidebar widget template partial
+
+@package inpress
+ */
 
 if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 	return;
