@@ -1,7 +1,11 @@
-<?php /* main template file */
+<?php
+/** Main template file
+
+@package inpress
+ */
+
 get_header();
 ?>
-
 <section class="section">
 	<div class="container">
 		<div class="columns">
@@ -32,15 +36,15 @@ get_header();
 
 					the_posts_navigation();
 
-				else :
+					else :
 
-					get_template_part( 'template-parts/content', 'none' );
+						get_template_part( 'template-parts/content', 'none' );
 
 				endif;
-				?>
+					?>
 			</div>
 			<div class="column is-one-third">
-				<?php get_sidebar(); // https://developer.wordpress.org/reference/functions/get_sidebar/ ?>
+				<?php get_sidebar(); // https://developer.wordpress.org/reference/functions/get_sidebar/. ?>
 			</div>
 		</div>
 	</div>
